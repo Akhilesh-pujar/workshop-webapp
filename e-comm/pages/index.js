@@ -6,6 +6,10 @@ import Navbar from '@/components/Navbar'
 import Banner from '@/components/Banner'
 import Downofbanner from '@/components/Downofbanner'
 import Aboutclass from '@/components/Aboutclass'
+import Aboutbusiness from '@/components/Aboutbusiness'
+import Bonuses from '@/components/Bonuses'
+import Aboutteacher from '@/components/Aboutteacher'
+import Certified from '@/components/Certified'
 
 
 export default function Home() {
@@ -21,7 +25,10 @@ export default function Home() {
         <Banner/>
         <Downofbanner/>
         <Aboutclass/>
-        
+        <Aboutbusiness/>
+        <Bonuses/>
+        <Certified/>
+        <Aboutteacher/>
 
     
     </>

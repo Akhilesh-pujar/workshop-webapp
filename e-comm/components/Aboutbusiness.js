@@ -9,7 +9,8 @@ function Aboutbusiness() {
       <h1 className="sm:text-3xl text-2xl font-bold title-font text-black">Who is this workshop for?</h1>
     </div>
     <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
+
+      <div className="p-4 md:w-1/2 shadow-md xl:w-1/3 shadow-gray-500 ">
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
             <h2 className="text-indigo-500 text-lg title-font font-medium">Working Professionals</h2>
@@ -24,7 +25,7 @@ function Aboutbusiness() {
       </div>
 
       
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/2 shadow-md xl:w-1/3 shadow-gray-500 ">
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
@@ -40,7 +41,7 @@ function Aboutbusiness() {
 
         
       </div>
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/2 shadow-md shadow-gray-500 xl:w-1/3">
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  

@@ -10,6 +10,7 @@ import Aboutbusiness from '@/components/Aboutbusiness'
 import Bonuses from '@/components/Bonuses'
 import Aboutteacher from '@/components/Aboutteacher'
 import Certified from '@/components/Certified'
+import Faq from '@/components/Faq'
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <Bonuses/>
         <Certified/>
         <Aboutteacher/>
+        <Faq/>
 
     
     </>

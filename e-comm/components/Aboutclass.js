@@ -9,7 +9,9 @@ function Aboutclass() {
       <h1 className="sm:text-3xl text-2xl font-bold title-font text-black">What will you learn in this Masterclass?</h1>
     </div>
     <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
+
+
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
             <h2 className="text-indigo-500 text-lg title-font font-medium">The Logic behind the Algorithm of Google Ads</h2>
@@ -24,7 +26,7 @@ function Aboutclass() {
       </div>
 
       
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
@@ -37,7 +39,7 @@ function Aboutclass() {
           </div>
         </div>
       </div>
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
@@ -57,7 +59,7 @@ Leverage easy & actionable</p>
 
 
 
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
 
@@ -73,7 +75,7 @@ Leverage easy & actionable</p>
 
 
       
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
   
@@ -88,7 +90,7 @@ Leverage easy & actionable</p>
       </div>
 
 
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-md shadow-black">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
     
@@ -106,7 +108,7 @@ Leverage easy & actionable</p>
 
 
     </div>
-    <div className="flex justify-center mt-5">
+    <div className="flex justify-center mt-9">
         <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button>
       </div>
       <div className='flex justify-center'>

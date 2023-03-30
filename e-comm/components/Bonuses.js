@@ -7,16 +7,16 @@ function Bonuses() {
             <h3 className='text-white font-bold text-center text-4xl'>Register before midnight of 29 Mar 2023</h3>
             <h4 className='text-yellow-500 text-center text-2xl'> To Unlock All Bonuses worth Rs20,000</h4>
         </div>
-      <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
+      <section className="text-gray-600 body-font ">
+      <div className="container px-5 py-24 mx-auto">
+      <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/3 shadow-sm shadow-yellow-500 ">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
             <h2 className="text-yellow-500 text-lg text-center space-x-6 p-4 w-[180px] title-font font-medium border bg-black">Bonus-1</h2>
           </div>
-          <div className="flex-grow">
-            <p className="leading-relaxed text-base text-center">Free Google Ad Copy Generator</p>
+          <div className="flex-grow ">
+            <p className="leading-relaxed text-base text-center">  Free Google Ad Copy Generator</p>
            <p className='border border-black text-center'>Worth Rs 4,500</p>
 
           </div>
@@ -25,7 +25,7 @@ function Bonuses() {
       </div>
 
       
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-sm shadow-yellow-500">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
@@ -38,7 +38,7 @@ function Bonuses() {
           </div>
         </div>
       </div>
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-sm shadow-yellow-500">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
@@ -57,14 +57,14 @@ function Bonuses() {
 
 
 
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-sm shadow-yellow-500">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
 
           <h2 className="text-yellow-500 text-lg text-center space-x-6 p-4 w-[180px] title-font font-medium border bg-black">Bonus-4</h2>
           </div>
           <div className="flex-grow">
-            <p className="leading-relaxed text-base text-center">Detailed Notes for everything learnt<br/> in the Workshop for reference</p>
+            <p className="leading-relaxed text-base text-center">Detailed Notes for everything learnt in the Workshop for reference</p>
             <p className="leading-relaxed text-base text-center border border-black"> Worth Rs 2,500</p>
 
           </div>
@@ -73,7 +73,7 @@ function Bonuses() {
 
 
       
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 md:w-1/3 shadow-sm shadow-yellow-500 ">
         <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div className="flex items-center mb-3">
   
@@ -86,10 +86,6 @@ function Bonuses() {
           </div>
         </div>
       </div>
-
-
-
-
 
     </div>
 

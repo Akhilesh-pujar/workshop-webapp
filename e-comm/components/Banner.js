@@ -1,4 +1,6 @@
+import checkout from '@/pages/checkout'
 import React from 'react'
+import Link from 'next/link'
 
 function Banner() {
   return (
@@ -9,7 +11,7 @@ function Banner() {
       <img className="object-cover object-center rounded" alt="hero" src='https://static.vecteezy.com/system/resources/previews/006/642/214/original/youtube-icon-logo-symbol-editorial-app-icons-free-vector.jpg'/>
       
       <div className="flex justify-center mt-5">
-        <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button>
+        <Link href='#Checkout'><button  className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
       </div>
     </div>
 

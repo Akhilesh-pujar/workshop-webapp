@@ -11,6 +11,7 @@ import Bonuses from '@/components/Bonuses'
 import Aboutteacher from '@/components/Aboutteacher'
 import Certified from '@/components/Certified'
 import Faq from '@/components/Faq'
+import Cheeckout from '@/components/Cheeckout'
 
 
 export default function Home() {
@@ -31,6 +32,10 @@ export default function Home() {
         <Certified/>
         <Aboutteacher/>
         <Faq/>
+        <section id='Checkout'>
+        <Cheeckout/>
+        </section>
+        
 
     
     </>

@@ -4,8 +4,8 @@ function Certified() {
   return (
     <div>
       <div className='bg-black p-8 '>
-            <h3 className='text-yellow-500  font-bold text-center text-4xl'>Get Certified</h3>
-            <h4 className='text-white text-center text-2xl'> Yes! You will be certified by <span className='text-yellow-500 underline'>SKILL NATION</span> which brings a lot of credibility to your certificate & your resume.</h4>
+            <h3 className='text-amber-400  font-bold text-center text-4xl'>Get Certified</h3>
+            <h4 className='text-white text-center text-2xl'> Yes! You will be certified by <span className='text-amber-400 underline'>SKILL NATION</span> which brings a lot of credibility to your certificate & your resume.</h4>
         </div>
         <div className='flex flex-col xl:text-left md:text-left p-5'>
         <h4 className='font-bold text-4xl text-center'>You should join this workshop if </h4>

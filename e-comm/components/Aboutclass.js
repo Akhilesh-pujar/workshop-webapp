@@ -112,7 +112,7 @@ Leverage easy & actionable</p>
         <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button>
       </div>
       <div className='flex justify-center'>
-      <h4 className='p-8 font-bold text-black'>Register before <span className='text-yellow-500'>March 30, 2023</span> to unlock bonuses <span className='text-yellow-500'>worth Rs 20,000</span> </h4>
+      <h4 className='p-8 font-bold text-black'>Register before <span className='text-amber-400'>March 30, 2023</span> to unlock bonuses <span className='text-amber-400'>worth Rs 20,000</span> </h4>
         
       </div>
       <div className='flex justify-center p-8 '>

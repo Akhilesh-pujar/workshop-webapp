@@ -15,7 +15,7 @@ function Aboutteacher() {
 
 
     <div className="  lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className=" title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-500">Know Your Mentors</h1>
+      <h1 className=" title-font sm:text-4xl text-3xl mb-4 font-medium text-amber-400">Know Your Mentors</h1>
       <p className="mb-8 text-white">The 3 Hour Google Ads Workshop is a LIVE Hands-on journey to help go from zero to hero in Google Ads.</p>
 
     </div>

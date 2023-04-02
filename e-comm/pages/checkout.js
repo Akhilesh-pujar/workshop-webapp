@@ -4,7 +4,7 @@ function checkout() {
   return (
     <div  className='bg-black'>
     <div className='bg-gray-600 p-8 '>
-           <h3 className='text-white font-bold text-center text-4xl'> Congrats! You are just one step away from becoming a<span className='text-yellow-500'> Google Ads Expert</span></h3>
+           <h3 className='text-white font-bold text-center text-4xl'> Congrats! You are just one step away from becoming a<span className='text-amber-400'> Google Ads Expert</span></h3>
            
        </div>
 
@@ -21,7 +21,7 @@ function checkout() {
 {/*  */}
          </div>
          <div className="flex-grow pl-4">
-           <h2 className="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">Bonus-1</h2>
+           <h2 className="font-medium title-font text-sm text-amber-400 mb-1 tracking-wider">Bonus-1</h2>
            <p className="leading-relaxed text-white">Free Google Ad Copy Generator | Value - ₹ 4,500.</p>
          </div>
        </div>
@@ -33,7 +33,7 @@ function checkout() {
 {/*  */}
          </div>
          <div className="flex-grow pl-4">
-           <h2 className="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">Bonus-2</h2>
+           <h2 className="font-medium title-font text-sm text-amber-400 mb-1 tracking-wider">Bonus-2</h2>
            <p className="leading-relaxed text-white">10 Foolproof Copywriting Tips for Google Ads | Value - ₹ 4,000.</p>
          </div>
        </div>
@@ -45,7 +45,7 @@ function checkout() {
 {/*  */}
          </div>
          <div className="flex-grow pl-4">
-           <h2 className="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">Bonus-3</h2>
+           <h2 className="font-medium title-font text-sm text-amber-400 mb-1 tracking-wider">Bonus-3</h2>
            <p className="leading-relaxed text-white">10 Secret Hacks to 10X Your Google Ads ROI | Value - ₹ 5,000.</p>
          </div>
        </div>
@@ -57,7 +57,7 @@ function checkout() {
 {/*  */}
          </div>
          <div className="flex-grow pl-4">
-           <h2 className="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">Bonus-4</h2>
+           <h2 className="font-medium title-font text-sm text-amber-400 mb-1 tracking-wider">Bonus-4</h2>
            <p className="leading-relaxed text-white">Learn How To Get Rs. 20,000 Ad Credit for Free | Value - ₹ 2,500.</p>
          </div>
        </div>
@@ -69,7 +69,7 @@ function checkout() {
            </svg> */}
          </div>
          <div className="flex-grow pl-4">
-           <h2 className="font-medium title-font text-sm mb-1 tracking-wider text-yellow-500">Bonus-5</h2>
+           <h2 className="font-medium title-font text-sm mb-1 tracking-wider text-amber-400">Bonus-5</h2>
            <p className="leading-relaxed text-white">Step by Step Google Ads Launch Checklist | Value - ₹ 4,000</p>
          </div>
        </div>

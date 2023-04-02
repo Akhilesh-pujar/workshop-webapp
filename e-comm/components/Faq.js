@@ -49,7 +49,7 @@ function Faq() {
         <li key={item.id}>
           <button
             type="button"
-            className="flex justify-between w-full py-2 px-4 border border-gray-300 rounded-md text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-500"
+            className="flex justify-between w-full py-2 px-4 border border-gray-300 rounded-md text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-amber-400"
             onClick={handleClick}
           >
             <span className="text-lg font-medium">{item.question}</span>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Aboutteacher() {
   return (
@@ -9,7 +10,7 @@ function Aboutteacher() {
       <img className="object-cover object-center rounded" alt="hero" src='https://skillnation.in/wp-content/uploads/2022/07/Trainer-7.webp'/>
       
       <div className="flex justify-center mt-5">
-        <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button>
+      <Link href='/payment'><button  className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
       </div>
     </div>
 

@@ -1,4 +1,7 @@
 import React from 'react'
+import {FcManager} from "react-icons/fc"
+import {VscGraph} from "react-icons/vsc"
+import {MdAddHomeWork} from "react-icons/md"
 
 function Aboutbusiness() {
   return (
@@ -13,7 +16,7 @@ function Aboutbusiness() {
       <div className="p-4 md:w-1/2 shadow-md xl:w-1/3 shadow-gray-500 ">
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
-            <h2 className="text-indigo-500 text-lg title-font font-medium">Working Professionals</h2>
+            <h2 className="text-indigo-500 text-lg title-font font-medium text-center"><FcManager className='inline-flex w-[40px] h-[40px]'/>Working Professionals</h2>
           </div>
           <div className="flex-grow">
             <p className="leading-relaxed text-base text-center">If you are in the digital marketing field and want to master the in-demand skill of digital marketing then this google ads workshop is for you. This skill will help you get high-paying jobs in the top MNCs and Startups you can think of.</p>
@@ -29,7 +32,7 @@ function Aboutbusiness() {
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
-            <h2 className="text-indigo-500 text-lg title-font font-medium">Business Owners/
+            <h2 className="text-indigo-500 text-lg title-font font-medium"><VscGraph className='inline-flex w-[40px] h-[40px]'/>Business Owners/
                   Entrepreneurs</h2>
           </div>
           <div className="flex-grow">
@@ -45,7 +48,7 @@ function Aboutbusiness() {
         <div className="flex rounded-lg h-full bg-yellow-100 p-8 flex-col">
           <div className="flex items-center mb-3">
  
-            <h2 className="text-indigo-500 text-lg title-font font-medium">Freelancers/Home-Makers</h2>
+            <h2 className="text-indigo-500 text-lg title-font font-medium text-center"><MdAddHomeWork className='inline-flex w-[40px] h-[40px]'/>Freelancers/Home-Makers</h2>
           </div>
           <div className="flex-grow">
             <p className="leading-relaxed text-base text-center">If you’re a freelancer/ homemaker/ want to start your journey in premium freelancing and want to learn one of the highest paying & most in-demand skills of Digital Marketing then this workshop is for you.</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {FcApproval} from "react-icons/fc"
 function Certified() {
   return (
@@ -16,7 +17,7 @@ function Certified() {
         <p className='font-medium text-2xl mt-3 inline-flex'>You want to earn money as a Google Ads Consultant <FcApproval/></p>
         </div>
         <div className="flex justify-center mt-5 mb-5">
-        <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg FiArrowRight">Book your seat spot now (Only Rs 99)</button>
+        <Link href='/payment'><button  className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
         
       </div>
         

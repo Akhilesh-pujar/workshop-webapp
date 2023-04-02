@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Transition } from '@headlessui/react';
 import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
-
+import Link from 'next/link';
 function Faq() {
     const [showAnswers, setShowAnswers] = useState(false);
 
@@ -76,7 +76,7 @@ function Faq() {
       ))}
     </ul>
     <div className="flex justify-center mt-5 mb-5">
-        <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg FiArrowRight">Book your seat spot now (Only Rs 99)</button>
+    <Link href='/payment'><button  className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
         
       </div>
   </div>

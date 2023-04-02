@@ -32,9 +32,7 @@ export default function Home() {
         <Certified/>
         <Aboutteacher/>
         <Faq/>
-        <section id='Checkout'>
-        <Cheeckout/>
-        </section>
+
         
 
     

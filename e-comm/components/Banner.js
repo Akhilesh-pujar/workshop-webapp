@@ -1,24 +1,40 @@
-import checkout from '@/pages/checkout'
+import YouTube from 'react-youtube';
 import React from 'react'
 import Link from 'next/link'
 
+
 function Banner() {
+  
+    const videoId = "https://www.youtube.com/watch?v=7VwmgpcDs9Y&t=815s";
+    const opts = {
+      height: '360',
+      width: '640',
+      playerVars: {
+       
+        autoplay: 0,
+      },
+    };
+
   return (
   <div className='bg-black'>
+     <div className='bg-black p-8 '>
+     <h1 className=" text-center title-font sm:text-6xl text-3xl mb-4 font-medium text-amber-400">Do you want to Master Google Ads & build a Successful Career in Digital Marketing?</h1>
+     <p className="mb-8 text-2xl text-center font-regular text-white">The 3 Hour Google Ads Workshop is a LIVE Hands-on journey to help go from zero to hero in Google Ads.</p>
+        </div>
       <section className=" body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img className="object-cover object-center rounded" alt="hero" src='https://static.vecteezy.com/system/resources/previews/006/642/214/original/youtube-icon-logo-symbol-editorial-app-icons-free-vector.jpg'/>
+    <YouTube className='flex ' videoId={videoId} opts={opts} />;
       
       <div className="flex justify-center mt-5">
-        <Link href='#Checkout'><button  className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
+        <Link href='/payment'><button  className="inline-flex transition-all text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Book your seat spot now (Only Rs 99)</button></Link>
       </div>
     </div>
 
 
     <div className="  lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className=" title-font sm:text-4xl text-3xl mb-4 font-medium text-amber-400">Do you want to Master Google Ads & build a Successful Career in Digital Marketing?</h1>
-      <p className="mb-8 text-white">The 3 Hour Google Ads Workshop is a LIVE Hands-on journey to help go from zero to hero in Google Ads.</p>
+
+     
 
 
       <p className="mb-8 text-white font-bold underline text-2xl">Workshop is on Saturday, 15th April at 7 PM.</p>
